@@ -119,8 +119,8 @@ def main():
     print df_train_y[8010].value_counts()
     print df_test_y[8010].value_counts()
     print "means"
-    #print df_x[8010].mean() 
-    #print df_y[8010].mean() 
+    print df_train_y[8010].mean() 
+    print df_test_y[8010].mean() 
 
     #Q8
     print "Q8:"
